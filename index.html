@@ -8,37 +8,150 @@
     <title>Obvi.link | Home page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
 <header class="center header">
-    <a href="#" class="logo">
-        <img src="img/logo.svg" alt="logo">
-    </a>
-    <input type="checkbox" class="visually-hidden" id="nav-toggler">
-    <label for="nav-toggler" class="header__toggler">
-        <span></span><span></span><span></span>
-    </label>
-    <nav class="header__nav">
+    <section class="navigation center">
         <a href="#" class="logo">
             <img src="img/logo.svg" alt="logo">
-
         </a>
-        <a href="#" class="button">
-            Log in
-        </a>
-        <ul class="header__nav-list">
-            <li><a href="#">Plans</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Policy</a></li>
-            <li><a href="#">Docs</a></li>
-            <li><a href="#">About</a></li>
-        </ul>
-    </nav>
+        <div class="navigation-list">
+            <a href="#">Plans</a>
+            <a href="#">FAQ</a>
+            <a href="#" class="button">
+                Log in
+            </a>
+        </div>
+        <input type="checkbox" class="visually-hidden" id="nav-toggler">
+        <label for="nav-toggler" class="header__toggler">
+            <span></span><span></span><span></span>
+        </label>
+        <nav class="header__nav">
+            <a href="#" class="logo">
+                <img src="img/logo.svg" alt="logo">
+            </a>
+            <a href="#" class="button">
+                Log in
+            </a>
+            <ul class="header__nav-list">
+                <li><a href="#">Plans</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Policy</a></li>
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section class="header__hero center">
+        <div class="header__hero-offer ">
+            <h1 class="header__hero-title">Cвязь с клиентом в один клик! </h1>
+            <p class="header__hero-text">Перейдя по ссылке ваш клиент получит быстро и расширено информацию по всем
+                вопросам.</p>
+            <a href="#" class="header__hero-btn button">
+                Создать страницу бесплатно
+            </a>
+        </div>
+        <div class="header__hero-slider ">
+            <img src="./img/SamsungS%20S10+.png" alt="hero">
+            <img src="./img/slider.png" alt="slider">
+        </div>
+    </section>
 </header>
-
+<footer class="footer center">
+    <section class="footer__rates">
+        <img src="./img/tarifs.png" alt="rates" class="footer__rates-image">
+        <h2 class="footer__rates-title">Rates</h2>
+        <div class="footer__rates-buttons">
+            <a href="#" class="footer__rates-btn">1 month</a>
+            <a href="#" class="footer__rates-btn">6 month <span>-30%</span></a>
+            <a href="#" class="footer__rates-btn">1 year <span>-40%</span></a>
+        </div>
+    </section>
+    <section class="footer__block">
+        <div class="footer__block-subscriptions center">
+            <div class="subscription-free subscription ">
+                <img src="./img/free.png" alt="free" class="subscription-img">
+                <h3 class="subscription-title">free</h3>
+                <h4 class="subscription-subtitle">2 weeks / 0$</h4>
+                <span></span>
+                <ul class="subscription-items ul-items">
+                    <li class="subscription-item li-item">
+                        <a href="#">1 messenger</a>
+                    </li>
+                    <li class="subscription-item li-item">
+                        <a href="#">1 button</a>
+                    </li>
+                    <li class="subscription-item li-item">
+                        <a href="#">1 text block</a></li>
+                    <li class="subscription-item li-item"><a href="#">Page design</a>
+                    </li>
+                    <li class="subscription-item li-item">
+                        <a href="#">"Powered by Obvi.link" badge</a>
+                    </li>
+                    <li class="subscription-item li-item"><a href="#">-</a></li>
+                    <li class="subscription-item li-item"><a href="#">-</a></li>
+                </ul>
+            </div>
+            <div class="subscription-pay subscription ">
+                <img src="./img/pay.png" alt="free" class="subscription-img">
+                <h3 class="subscription-title">paid</h3>
+                <h4 class="subscription-subtitle">1 month / 5.99$</h4>
+                <span></span>
+                <ul class="subscription-items ul-items">
+                    <li class="subscription-item li-item">
+                        <a href="#">Unlimited messengers</a>
+                    </li>
+                    <li class="subscription-item li-item">
+                        <a href="#">Unlimited buttons</a>
+                    </li>
+                    <li class="subscription-item li-item">
+                        <a href="#">Unlimited blocks</a>
+                    </li>
+                    <li class="subscription-item li-item">
+                        <a href="#">Page design</a>
+                    </li>
+                    <li class="subscription-item li-item">
+                        <a href="#">Block “My services”</a>
+                    </li>
+                    <li class="subscription-item li-item">
+                        <a href="#">Map</a>
+                    </li>
+                    <li class="subscription-item li-item">
+                        <a href="#">Missing "Powered by obvi.link" badge</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__block-button">
+            <a href="#" class="footer__block-btn button">
+                Get PRO for 2 weeks for free
+            </a>
+        </div>
+        <div class="footer__block-policy">
+            <a href="#" class="logo">
+                <img src="img/logo-footer.png" alt="logo">
+            </a>
+            <span>© 2019 obvi.link.com</span>
+            <ul class="policy-items ul-items">
+                <li class="policy-item li-item">
+                    <a href="#">About</a>
+                </li>
+                <li class="policy-item li-item">
+                    <a href="#">Prices and tariffs</a>
+                </li>
+                <li class="policy-item li-item">
+                    <a href="#">Agreement-offer</a>
+                </li>
+                <li class="policy-item li-item">
+                    <a href="#">Privacy Policy</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+</footer>
 </body>
 </html>

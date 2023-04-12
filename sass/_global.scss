@@ -4,13 +4,20 @@ body {
   font-size: 14px;
   line-height: 1.4;
 }
+
 .center {
-  padding-left: calc(50vw - 125px);
-  padding-right: calc(50vw - 125px);
+  padding-left: calc(50vw - 165px);
+  padding-right: calc(50vw - 165px);
 }
+
 img {
   display: block;
   max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-text-color);
 }
 
 .visually-hidden {
@@ -25,3 +32,25 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.button {
+  background: var(--main-text-color);
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.ul-items {
+  list-style: none;
+  padding-left: 0;
+}
+
+.li-item {
+  padding: 10px 0 10px 0;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+}
+
